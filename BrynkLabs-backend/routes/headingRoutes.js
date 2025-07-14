@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Heading = require("../models/heading.js");
+const Heading = require("../models/Heading.js");
 
 // GET heading
 router.get("/", async (req, res) => {

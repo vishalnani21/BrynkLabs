@@ -6,14 +6,16 @@ const headingRoutes = require("./routes/headingRoutes");
 
 const app = express();
 
-// Middleware
+
+
 app.use(cors());
 app.use(express.json());
 
-// Routes
+
+
 app.use("/api/heading", headingRoutes);
 
-// Connect to MongoDB and start server
+
 const PORT = process.env.PORT || 3000;
 const MONGO_URI = process.env.MONGO_URI;
 
