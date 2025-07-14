@@ -22,6 +22,12 @@ npm install
 node index.js
 
 ```
+or
+
+open link:https://brynklabs.onrender.com  or system localhost.
+
+make an api call  "/cms" in the search bar to navigate for CMS heading updation page.
+click on home page for navigating to landingpage.
 
 *** Dependencies ***
 Frontend: React, Vite, React Router DOM, Context API
