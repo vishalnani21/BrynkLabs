@@ -1,0 +1,8 @@
+.feature-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 60px;
+  padding: 0 120px;
+}
